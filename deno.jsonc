@@ -1,0 +1,16 @@
+{
+  "imports": {
+    "toml": "https://deno.land/std@0.185.0/toml/mod.ts",
+    "cliffy/command": "https://deno.land/x/cliffy@v0.25.7/command/mod.ts",
+    "flags": "https://deno.land/std@0.185.0/flags/mod.ts",
+    "deep_merge": "https://deno.land/std@0.185.0/collections/deep_merge.ts",
+    "xdg": "https://deno.land/x/xdg_portable@v10.6.0/src/mod.deno.ts",
+    "path": "https://deno.land/std@0.185.0/path/mod.ts",
+    "fs": "https://deno.land/std@0.185.0/fs/mod.ts",
+    "testing/asserts": "https://deno.land/std@0.185.0/testing/asserts.ts",
+    "croner": "https://deno.land/x/croner@6.0.3/dist/croner.js",
+    "sqlite": "https://deno.land/x/sqlite@v3.7.0/mod.ts",
+    "http/server": "https://deno.land/std@0.185.0/http/server.ts",
+    "openai": "npm:openai@3.2.0"
+  }
+}

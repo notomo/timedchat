@@ -1,0 +1,13 @@
+[[rooms]]
+key = "test"
+
+[[rooms.tasks]]
+type = "oneshot"
+prompt = '''
+test1
+'''
+
+[[rooms.tasks]]
+type = "periodic"
+prompt = "test2"
+cron = "*/2 * * * * *"
