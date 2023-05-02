@@ -11,7 +11,7 @@ test: build
 
 check:
 	deno fmt --check
-	deno check ${MAIN} ./src/test/* ./src/*_test.ts
+	deno check **/*.ts
 	deno lint
 
 cache:
